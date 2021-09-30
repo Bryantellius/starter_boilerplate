@@ -1,6 +1,6 @@
-import * as express from "express";
+import express, { Router } from "express";
 
-const router = express.Router();
+const router = Router();
 
 router.get(
   "/api/hello",
@@ -10,5 +10,3 @@ router.get(
 );
 
 export default router;
-
-
